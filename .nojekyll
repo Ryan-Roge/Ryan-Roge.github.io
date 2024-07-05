@@ -1,5 +1,5 @@
 touch .nojekyll
 git add .nojekyll
 git commit -m "Add .nojekyll to
-disable Jekull"
+disable Jekyll"
 git push origin main
