@@ -3,30 +3,12 @@
 }
 
 body {
-    background-color: #010101;
-    color: white;
     display: flex;
 }
 
-.nav {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    width: 100%;
-}
-
-.links {
+nav {
+    width: 100vw;
     display: flex;
     flex-direction: row;
-    justify-content: end;
-    background-color: wheat;
-}
-
-.title {
-    display: flex;
-    justify-content: center;
-    flex-grow: 1;
-    font-size: x-large;
-    margin-top: 15px;
-    font-family: merriweather, sans-serif;
+    justify-content: space-evenly;
 }
